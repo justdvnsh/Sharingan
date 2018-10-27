@@ -28,21 +28,21 @@ Sharingan is an optical monitoring tool for programmers. Basically it is an ecos
 
 2) __Drowsiness_Detection__ : ![img](/images/drowsiness_detection.png)
 
-        - __Idea__ : 
+    - __Idea__ : 
             We all know that programming is all about problem-solving and many times this problem-solving attitude becomes an addiction for many of us. Thus in order to feed our addiction we spend days and nights coding and solving various problems. And we know that coding is a tiring task if done well, this leads to many of us sleeping on the spot or with the laptop on. Thus , our drowsiness detection feature helps the programmers in informing that they are falling asleep and they should most probably find a better spot to sleep and shut down the system to save some electricity.
 
-        - __How__ :
+    - __How__ :
             We know about the EAR or Eye-Aspect-Ratio from above. This feature can be thought of as an extention to the above feature . Basically we are keeping a track of the EAR .  If the eye aspect ratio falls below this threshold, we’ll start counting the number of frames the person has closed their eyes for. And thus if the number of frames the person has closed their eyes in exceeds , we'll sound an alarm.
 
-        - __Future Improvements__ :
+    - __Future Improvements__ :
             This feature can be very well brought into the drowsiness or sleep detection for the drivers. We know that accidents are common now and almost 60-70% of accidents happen due to unattentiveness of the driver or because he/she felt asleep. Using this feature , we can easily track the driver and maybe stop the vehicle if the driver falls asleep.
 
 3) __Posture Detection__: ![img](/images/posture_detection.png)
 
-        - __Idea__ : 
+    - __Idea__ : 
             We do not need to know this that our posture is responsible for many things. From maintaing a proper balance in the body or keeping our bones in proper shape , to making us look more confident. But a programmers job is most of the time not a good posture appreciator. Most of the times we have our posture slouched towards the screen. Thus , we implemented this feature into Sharnigan to help programmers maintain a good posture. However, I may remind you that this feature is still in its __beta phase__. It may contain bugs.
 
-        - __How__ :
+    - __How__ :
             In order to determine the distance from our camera to a known object or marker, we are going to utilize triangle similarity.
 
             The triangle similarity goes something like this: Let’s say we have a marker or object with a known width W. We then place this marker some distance D from our camera. We take a picture of our object using our camera and then measure the apparent width in pixels P. This allows us to derive the perceived focal length F of our camera:
@@ -53,7 +53,7 @@ Sharingan is an optical monitoring tool for programmers. Basically it is an ecos
 
             D’ = (W x F) / P
 
-        - __Future Improvements__ :
+    - __Future Improvements__ :
             This feature is still in its beta phase , but still is quite powerful. It is measuring the distance to the object. Future improvements of the feature can be enourmous. We can have a self adjusting chair based on this feature or maybe an ample of robots to measure the distance based on the camera, as processed images give way better results than normal vectors.
 
             This feature can also be used up with a CNN to develop a simple working model of a real-world self-driving car.
