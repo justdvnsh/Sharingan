@@ -129,11 +129,4 @@ Finally run ```flask run``` and navigate to ```localhost:5000```
 This project is MIT licensed. 
 This project uses an image of the Sharingan which could be subject to copyright !
 
---- 
-
-### Acknowledgements !
-
-- [Adrian Rosebrock](https://www.pyimagesearch.com)
-- [Miguel Grindberg](https://blog.miguelgrinberg.com/)
-- [StackOverflow](https://www.stackoverflow.com)
-- [Google](https://www.google.com)
+---
